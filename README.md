@@ -7,7 +7,7 @@ Usage:
 ------
 
 ```
-import GameOfLife from 'game-of-life-solver'
+import GameOfLife from 'game-of-life-solver';
 
 const board =
     {
@@ -17,17 +17,16 @@ const board =
         0: {0: null},
         1: {0: null, 1: null}, // {y: {x1: null, x2: null ...}}
         2: {2: null}
-      },
-      alive: 4
+      }
     };
 
 
-let gol = new GameOfLife(board)
+let gol = new GameOfLife(board);
 
-gol.nextGeneration()
-gol.nextGeneration()
+gol.nextGeneration();
+gol.nextGeneration();
 
-let {alive, aliveCoords} = gol.board
+let {alive, aliveCoords} = gol.board;
 ```
 
 
