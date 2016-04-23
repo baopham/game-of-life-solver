@@ -1,6 +1,6 @@
 {
   "name": "game-of-life-solver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Game of Life solver",
   "main": "lib/game-of-life-solver.min.js",
   "scripts": {
